@@ -1,27 +1,36 @@
-# Universal-Fighting-Game-Platform
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Quick summary
-UFGP is a idea I had to combine something like pgstats.gg, smashladder and something like articles for the most popular fighting games. It is also a project where I get more hands on experience with certain python and javascript frameworks. The goal is to create a universal platform that most games can use to have some online presence.
+## Getting Started
 
-In my head this whole project is split up into 3 parts.
+First, run the development server:
 
-Game domain - Basically everything surrounding a particular game like a frame data, patch information, art and models. This needs to be structured into a certain format that the UFGP can take and generate a site where interesting information can be shown. I need to workout the details but this is what I have right now.
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-UFGP - This is the actual platform that connects to all the different API's to eachother and stores user information in a database, is responsible for generating the site and also other functions. There needs to be some site templates to give different games a form of identity as wel. Integration to google accounts maybe.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-Bots and Ladder - This is one of the main functionality where there we have a ladder system  specific to each fighting game but with a single account. With the ladder I was also playing with the idea of a money match  section. This could be with actual money or platform currency 
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-## Requirements for the projects
-This is a quick overview of some of the things that i will need to realize this project. There are a few API's that i need to become familiar with. I also would like to build my own API that can be used to serve some front end and also create a bot that will give tournament information but also character details. I dont know how i will realize this properly but that is just part of the experience. 
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-- Challonge and stats.gg API
-- Some bot framework
-- Django/FastApi for the backend
-- React (or some frontend framework)
-- Some universal standard for the game domain
-- Some Natural Language Processing for summarizing articles for the articles
-- Jenkins for pipelines or some cloud setup with Kubernetes
+## Learn More
 
-This is all needs to be ironed out and segmented properly but this is just an overall view.
+To learn more about Next.js, take a look at the following resources:
 
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
