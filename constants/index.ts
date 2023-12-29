@@ -24,7 +24,7 @@ export const FOOTER_LINKS = [
 
 export const FOOTER_CONTACT_INFO = {
   title: 'Contact Us',
-  links: [
+  contacts: [
     { label: 'Admin Officer', value: '123-456-7890' },
     { label: 'Email Officer', value: 'edwinoko@UFGP.com' },
   ],
@@ -32,7 +32,7 @@ export const FOOTER_CONTACT_INFO = {
 
 export const SOCIALS = {
   title: 'Social',
-  links: [
+  pictures: [
     '/facebook.svg',
     '/instagram.svg',
     '/twitter.svg',
