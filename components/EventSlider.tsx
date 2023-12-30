@@ -9,6 +9,8 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel"
 
+import Autoplay from "embla-carousel-autoplay"
+
 
 // A slider showing added articles, Interesting videos, current league Top 3 ranking, Upcoming tournaments 
 const EventSlider = () => { 
@@ -18,6 +20,7 @@ const EventSlider = () => {
       opts={{
         align: "start",
       }}
+      plugins={[Autoplay({delay: 5000})]}
       className="w-full max-w-sm flex justify-self-center"
     >
       <CarouselContent>
