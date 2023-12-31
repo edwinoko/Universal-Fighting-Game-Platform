@@ -5,7 +5,7 @@ import { FOOTER_CONTACT_INFO, FOOTER_LINKS, SOCIALS } from '@/constants'
 
 const Footer = () => {
   return (
-    <footer className='flex mb-24'>
+    <footer className='flex mb-24 pt-24 pl-10 pr-10'>
       <div className='padding-container max-container flex w-full flex-col gap-14'>
         <div className='flex flex-col items-start justify-center gap-[10%] md:flex-row'>
           <div className='flex flex-wrap gap-10 sm:justify-between md:flex-1'>
@@ -47,14 +47,15 @@ const Footer = () => {
                       <Image src={picture} alt="logo" width={24} height={24} color='white'/>
                     </Link>
                   ))}
-
                 </ul>
               </FooterColumn>
             </div>
           </div>
         </div>
-        <div className="border bg-gray-20"/>
-        <p>2023 Universal Fighting Game Platform</p>
+        {/* <div className="border bg-gray-20"/> */}
+        <div className='text-xs text-center'>
+            2023 Universal Fighting Game Platform
+        </div>
       </div>
 
     </footer>
