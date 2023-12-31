@@ -21,10 +21,10 @@ const Navbar = () => {
   return (
     <div className="grid justify-items-stretch">
         <nav className="flex space-x-10 flexBetween max-container justify-self-center padding-container relative z-30 py-5">
-            <Link href="/" >
+            <Link href="/" className="pt-2 pr-10" >
                 UFGP
             </Link>
-                    <ul className="h-full gap-12 flex justify-self-center">
+                    <ul className="h-full gap-12 flex justify-self-center pt-2">
                         {TOP_NAVIGATION_LINKS.map((link) => (
                             link.main == true && (
                                 <Link href={link.href} key={link.key}

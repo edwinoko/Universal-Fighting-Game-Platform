@@ -1,10 +1,10 @@
 // NAVIGATION LINKS FOR THE MAIN HOMEPAGE
 export const TOP_NAVIGATION_LINKS = [
   { href: '/home', key: 'home', label: 'Home', main: true},
-  { href: '/news', key: 'News & Articles', label: 'News & Articles', main: true},
+  { href: '/news', key: 'Articles', label: 'Articles', main: true},
   { href: '/battles', key: 'Battles', label: 'Battles', main: true},
-  { href: '/frame_data_and_more', key: 'Framedata & More', label: 'Framedata & More', main: true},
-  { href: '/contact', key: 'contact_us', label: 'Contact Us', main: true},
+  { href: '/frame_data_and_more', key: 'Framedata', label: 'Framedata', main: true},
+  { href: '/contact', key: 'contact_us', label: 'Contact', main: true},
   { href: '/', key: 'main', label: 'main', main: false},
 ];
 
@@ -39,15 +39,8 @@ export const Articles = [
 // FOOTER SECTION
 export const FOOTER_LINKS = [
   {
-    title: 'Learn More',
-    links: [
-      'About UFGP',
-      'Contact Us',
-    ],
-  },
-  {
     title: 'Our Community',
-    links: ['Discord', 'Youtube UFGP'],
+    links: ['Discord','Youtube UFGP'],
   },
 ];
 

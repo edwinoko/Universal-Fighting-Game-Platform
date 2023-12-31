@@ -5,13 +5,13 @@ import { FOOTER_CONTACT_INFO, FOOTER_LINKS, SOCIALS } from '@/constants'
 
 const Footer = () => {
   return (
-    <footer className='flex mb-24 pt-24 pl-10 pr-10'>
+    <footer className='flex mb-24 p-10'>
       <div className='padding-container max-container flex w-full flex-col gap-14'>
         <div className='flex flex-col items-start justify-center gap-[10%] md:flex-row'>
-          <div className='flex flex-wrap gap-10 sm:justify-between md:flex-1'>
+          <div className='flex flex-wrap gap-10 sm:justify-between md:flex-1 text-center'>
             {FOOTER_LINKS.map((columns)  => (
               <FooterColumn title={columns.title}>
-                <ul className='regular-14 flex flex-col gap-4 text-gray-30'>
+                <ul className='regular-14 flex flex-col text-gray-30'>
                   {columns.links.map((item)  => (
                     <Link href="/" key={item}>
                       {item}
