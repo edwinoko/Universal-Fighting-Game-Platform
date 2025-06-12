@@ -14,6 +14,14 @@ pnpm dev
 bun dev
 ```
 
+docker run -p 3000:3000 -v $(pwd):/app ufgp               
+
+
+TODO
+- Background images and some other styling
+
+
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
