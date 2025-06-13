@@ -6,6 +6,7 @@ export const TOP_NAVIGATION_LINKS = [
   { href: '/frame_data_and_more', key: 'Framedata', label: 'Framedata', main: true},
   { href: '/contact', key: 'contact_us', label: 'Contact', main: true},
   { href: '/', key: 'main', label: 'main', main: false},
+  { key: "login", label: "Login", href: "/login", main: true }
 ];
 
 export const Articles = [
